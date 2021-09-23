@@ -20,7 +20,7 @@ const Header = () => {
 
                 <div className={styles.name_container}>
                     <p className={styles.etiquetaH1}>{etiquetaH1Apertura}</p>
-                    <h1 className={styles.name}>Adrian Vinicio.</h1>
+                    <h1 className={styles.name}>Name.</h1>
                     <p className={styles.etiquetaH1}>{etiquetaH1Cierre}</p>
                 </div>
             
