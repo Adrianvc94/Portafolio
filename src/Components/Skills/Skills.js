@@ -17,13 +17,6 @@ const Skills = () => {
   var etiquetaH2Apertura = "<h2>";
   var etiquetaH2Cierre = "</h2>";
 
-  // C#
-  // SQL
-  // React
-  // .Net
-  // Bootstrap
-  // Xamarin
-
   return (
     <section className={styles.container}>
       <img src={Line2} className={styles.line} alt="Decorative line" />

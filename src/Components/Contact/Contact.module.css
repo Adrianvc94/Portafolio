@@ -1,0 +1,48 @@
+.container_contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    margin: 0px auto 200px auto;
+}
+
+.circle{
+    margin-bottom: 110px;
+    width: 150px;
+    height: 150px;
+}
+
+.etiquetaP {
+    color: #a61f2b;
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: "Courier New", Courier, monospace;
+    margin: 10px 0;
+    display: inline;
+}
+
+.title {
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: #153f59;
+    margin: 0px 25px 0px 25px;
+    display: inline;
+}
+
+.button{
+    margin-top: 30px;
+    padding: 15px;
+    font-size: 1.4rem;
+    background-color: transparent;
+    color: #a61f2b;
+    font-weight: bold;
+    border: solid 2.5px #a61f2b;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #a61f2b;
+    color: #ecebe3;
+}
+
+
