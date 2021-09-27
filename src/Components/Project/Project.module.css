@@ -1,0 +1,22 @@
+.container{
+
+    background-color: #ecebe3;
+}
+
+.images_container{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+.github_link{
+    height: 35px;
+    margin-left: 5px;
+}
+
+.title{
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #a61f2b;
+}
