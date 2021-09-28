@@ -1,6 +1,6 @@
 import styles from "./About.module.css";
 import Line from "../../Images/Line1.png";
-// import Photo from "../../Images/Foto.png";
+import Photo from "../../Images/Foto.png";
 
 const About = () => {
   var etiquetaH2Apertura = "<h2>";
@@ -39,7 +39,7 @@ const About = () => {
       <div className={styles.frame_container}>
         <div className={styles.frame}>
           <div className={styles.filter}>
-            {/* <img src={Photo} className={styles.photo} /> */}
+            <img alt="Headshot" src={Photo} className={styles.photo} />
           </div>
         </div>
       </div>
