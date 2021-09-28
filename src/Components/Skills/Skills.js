@@ -18,7 +18,7 @@ const Skills = () => {
   var etiquetaH2Cierre = "</h2>";
 
   return (
-    <section className={styles.container}>
+    <section id="skills" className={styles.container}>
       <img src={Line2} className={styles.line} alt="Decorative line" />
          
       <div className={styles.title_container}>

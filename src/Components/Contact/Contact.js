@@ -7,7 +7,7 @@ const Contact = () => {
   var etiquetaH2Cierre = "</h2>";
 
   return (
-    <div className={`container ${styles.container_contact}`}>
+    <div id="contact" className={`container ${styles.container_contact}`}>
 
         <img src={Circle} className={styles.circle} alt="Decorative circle"/>
 

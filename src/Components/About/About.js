@@ -10,7 +10,7 @@ const About = () => {
   var etiquetaPCierre = "</p>";
 
   return (
-    <div className={styles.container}>
+    <div id="about" className={styles.container}>
 
       <div className={styles.text_container}>
         

@@ -8,7 +8,7 @@ const NavBar = () => {
   return (
     <nav className={styles.NavBar}>
 
-        <img src={Logo} width="100px" height="100px" alt="Webpage logo"/>
+        <img src={Logo} className={styles.logo} alt="Webpage logo"/>
 
         <MobileNavigation/>
         <DesktopNavigation/>

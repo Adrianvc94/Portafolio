@@ -10,7 +10,7 @@ const Projects = () => {
   var description = "Vestibulum laoreet ipsum in elementum dignissim. Aliquam erat volutpat. Class aptent taciti sociosqu ad litora orquent per conubia nostra";
 
   return (
-    <section className={`container ${styles.main_container}`}>
+    <section id="projects" className={`container ${styles.main_container}`}>
       
       <div className={styles.title_container}>
         <p className={styles.etiquetaP}>{etiquetaH2Apertura}</p>

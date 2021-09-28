@@ -1,6 +1,6 @@
 import styles from "./NavBar.module.css";
 
-const NavLinks = () => {
+const NavLinks = (props) => {
   var about = "<About/>";
   var skills = "<Skills/>";
   var projects = "<Projects/>";
@@ -9,10 +9,26 @@ const NavLinks = () => {
   return (
     <div className={styles.listContainer}>
       <ul className={styles.ul}>
-        <li className={styles.li}>{about}</li>
-        <li className={styles.li}>{skills}</li>
-        <li className={styles.li}>{projects}</li>
-        <li className={styles.li}>{contact}</li>
+        <li className={styles.li}>
+          <a onClick={props.onChangeMenu} href="#about">
+            {about}
+          </a>
+        </li>
+        <li className={styles.li}>
+          <a onClick={props.onChangeMenu} href="#skills">
+            {skills}
+          </a>
+        </li>
+        <li className={styles.li}>
+          <a onClick={props.onChangeMenu} href="#projects">
+            {projects}
+          </a>
+        </li>
+        <li className={styles.li}>
+          <a onClick={props.onChangeMenu} href="#contact">
+            {contact}
+          </a>
+        </li>
       </ul>
 
       <button className={styles.button}>Resume</button>
