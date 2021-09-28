@@ -2,13 +2,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: auto;
+  /* max-width: 80vw; */
   height: auto;
-  margin: 0px auto 300px auto;
+  margin: 0px auto 200px auto;
 }
 
 .gallery {
-  width: 95%;
+  width: 100%;
   max-width: 930px;
   margin: 0 auto;
   display: grid;
@@ -18,7 +18,6 @@
 }
 
 .title_container {
-  margin-left: -650px;
   margin-bottom: 50px;
 }
 
@@ -46,10 +45,33 @@
 }
 
 .line {
-  height: 20vh;
-  width: 75vw;
+  height: 100px;
+  width: 75%;
+  max-width: 900px;
   position: relative;
   bottom: 150px;
+}
+
+@media(max-width:530px){
+  .line {
+    height: 60px;
+    width: 85%;
+    max-width: 900px;
+    position: relative;
+    bottom: 150px;
+  }
+  .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 80vw;
+  }
+
+  .title_container {
+    margin: 0 0 50px 0px;
+    margin-bottom: 50px;
+  }
+
 }
 
 @media screen and (min-width: 280px) and (max-width: 504px) {

@@ -8,8 +8,10 @@ const Contact = () => {
 
   return (
     <div className={`container ${styles.container_contact}`}>
+
         <img src={Circle} className={styles.circle} alt="Decorative circle"/>
-      <div>
+
+      <div className={styles.title_container}>
         <p className={styles.etiquetaP}>{etiquetaH2Apertura}</p>
         <h2 className={styles.title}>Get in Touch</h2>
         <p className={styles.etiquetaP}>{etiquetaH2Cierre}</p>

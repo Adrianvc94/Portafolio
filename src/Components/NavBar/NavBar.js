@@ -1,32 +1,22 @@
-import styles from './NavBar.module.css';
-import Logo from '../../Images/Logo.svg';
+import styles from "./NavBar.module.css";
+import Logo from "../../Images/Logo.svg";
 
+import MobileNavigation from "./MobileNavigation";
+import DesktopNavigation from "./DesktopNavigation";
 
 const NavBar = () => {
+  return (
+    <nav className={styles.NavBar}>
 
-    var about = "<About/>"
-    var skills = "<Skills/>"
-    var projects = "<Projects/>"
-    var contact = "<Contact/>"
+        <img src={Logo} width="100px" height="100px" alt="Webpage logo"/>
 
-    return(
-        <nav className={styles.nav}>
+        <MobileNavigation/>
+        <DesktopNavigation/>
 
-            <img src={Logo} width="100px" height="100px" alt="Webpage logo"/>
+    </nav>
 
-            <div className={styles.listContainer}>
-                <ul className={styles.ul}>
-                    <li className={styles.li}>{about}</li>
-                    <li className={styles.li}>{skills}</li>
-                    <li className={styles.li}>{projects}</li>
-                    <li className={styles.li}>{contact}</li>
-                </ul>
-
-                <button className={styles.button}>Resume</button>
-            </div>
-            
-        </nav>
-    )
-}
+    
+  );
+};
 
 export default NavBar;

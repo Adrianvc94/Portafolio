@@ -11,7 +11,9 @@ const About = () => {
 
   return (
     <div className={styles.container}>
-      <div>
+
+      <div className={styles.text_container}>
+        
         <div className={styles.title_container}>
           <p className={styles.etiquetaP}>{etiquetaH2Apertura}</p>
           <h2 className={styles.about}>
@@ -34,9 +36,10 @@ const About = () => {
           </p>
           <p className={styles.etiquetaP}>{etiquetaPCierre}</p>
         </div>
+
       </div>
 
-      <div>
+      <div className={styles.frame_container}>
         <div className={styles.frame}>
           <div className={styles.filter}>
             {/* <img src={Photo} className={styles.photo} /> */}

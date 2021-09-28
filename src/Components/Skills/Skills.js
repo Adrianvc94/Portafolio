@@ -20,6 +20,7 @@ const Skills = () => {
   return (
     <section className={styles.container}>
       <img src={Line2} className={styles.line} alt="Decorative line" />
+         
       <div className={styles.title_container}>
         <p className={styles.etiquetaP}>{etiquetaH2Apertura}</p>
         <h2 className={styles.skills}>

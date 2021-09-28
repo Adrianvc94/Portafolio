@@ -10,9 +10,11 @@ const Header = () => {
     var etiquetaH1Cierre = "</h1>";
 
     return(
-        <>        
+        <div className={styles.main_container}>    
+
             <div className={styles.header_container}>
-                <div>
+
+                <div className={styles.hi_container}>
                     <p className={styles.etiquetaP}>{etiquetaPApertura}</p>
                     <p className={styles.intro}>Hi, my name is</p>
                     <p className={styles.etiquetaP}>{etiquetaPCierre}</p>
@@ -20,7 +22,7 @@ const Header = () => {
 
                 <div className={styles.name_container}>
                     <p className={styles.etiquetaH1}>{etiquetaH1Apertura}</p>
-                    <h1 className={styles.name}>Name.</h1>
+                    <h1 className={styles.name}>Namear Nameart.</h1>
                     <p className={styles.etiquetaH1}>{etiquetaH1Cierre}</p>
                 </div>
             
@@ -35,7 +37,7 @@ const Header = () => {
             <picture className={styles.image_container}>
                 <img src={BrushStroke} className={styles.image} alt="Brush stroke"/>
             </picture>
-        </>
+        </div>
 
     )
 }

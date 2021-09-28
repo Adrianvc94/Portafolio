@@ -11,6 +11,7 @@ const Projects = () => {
 
   return (
     <section className={`container ${styles.main_container}`}>
+      
       <div className={styles.title_container}>
         <p className={styles.etiquetaP}>{etiquetaH2Apertura}</p>
         <h2 className={styles.projects}>
