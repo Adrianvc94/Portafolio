@@ -109,7 +109,6 @@
     }
 
     .NavBar{
-        /* align-items: center; */
         padding-left: 20px;
     }
     .listContainer{
@@ -124,7 +123,6 @@
         top: 0;
         right: 0;
         overflow: hidden;
-        /* background-color: #153F59; */
     }
 
     .button{

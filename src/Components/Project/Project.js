@@ -3,7 +3,6 @@ import folder from "../../Images/folder.png";
 import github from "../../Images/github.png";
 import link from "../../Images/link.png";
 
-
 const Project = (props) => {
   return (
     <div className="col-sm-4">
@@ -28,9 +27,7 @@ const Project = (props) => {
             </div>
           </div>
           <h5 className={`card-title ${styles.title}`}>{props.title}</h5>
-          <p className="card-text">
-            {props.description}
-          </p>
+          <p className="card-text">{props.description}</p>
           <p className="card-text">{props.tecnologies}</p>
         </div>
       </div>

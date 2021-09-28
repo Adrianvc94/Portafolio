@@ -7,15 +7,11 @@ import DesktopNavigation from "./DesktopNavigation";
 const NavBar = () => {
   return (
     <nav className={styles.NavBar}>
+      <img src={Logo} className={styles.logo} alt="Webpage logo" />
 
-        <img src={Logo} className={styles.logo} alt="Webpage logo"/>
-
-        <MobileNavigation/>
-        <DesktopNavigation/>
-
+      <MobileNavigation />
+      <DesktopNavigation />
     </nav>
-
-    
   );
 };
 

@@ -11,9 +11,7 @@ const About = () => {
 
   return (
     <div id="about" className={styles.container}>
-
       <div className={styles.text_container}>
-        
         <div className={styles.title_container}>
           <p className={styles.etiquetaP}>{etiquetaH2Apertura}</p>
           <h2 className={styles.about}>
@@ -26,17 +24,16 @@ const About = () => {
         <div className={styles.description_container}>
           <p className={styles.etiquetaP}>{etiquetaPApertura}</p>
           <p className={styles.description}>
-            Nacido en Okinawa en 1992. Después de graduarme de la universidad,
-            después de conseguir un trabajo como operador de DTP en una empresa
-            de producción en la prefectura, estuve a cargo de operar los sitios
-            web corporativos de más de una docena de empresas, principalmente
-            grandes minoristas masivos de ropa masculina. En 2017, comencé a
-            trabajar como diseñador web como individuo y estoy brindando soporte
-            integral para fotografía, diseño y codificación.
+            Etiam lectus odio, viverra id risus eget, egestas viverra libero.
+            Integer imperdiet dolor nec neque hendrerit, ut auctor arcu
+            suscipit. Sed ut scelerisque tellus, at consequat arcu. Ut lacinia,
+            quam ac finibus fermentum, elit urna tristique augue, quis
+            scelerisque diam urna id ligula. Quisque elementum, dui et suscipit
+            tempor, nisl lacus ornare metus, vitae malesuada metus mauris id
+            diam. Sed facilisis in magna quis aliquam. Integer ac vulputate leo.
           </p>
           <p className={styles.etiquetaP}>{etiquetaPCierre}</p>
         </div>
-
       </div>
 
       <div className={styles.frame_container}>
