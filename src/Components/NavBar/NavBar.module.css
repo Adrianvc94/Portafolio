@@ -65,6 +65,9 @@
     font-weight: bold;
     cursor: pointer;
     font-family: 'IM Fell English', serif;
+    text-decoration: none;
+    padding: 4px 6px;
+    text-align: center;
 }
 
 .button:hover{

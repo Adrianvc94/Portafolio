@@ -25,11 +25,11 @@ const Projects = () => {
 
         <Project github="www.github.com" link="example.com" title="Project One" description={description} tecnologies="HTML, CSS, JS"/>
         <Project github="www.github.com" link="example.com" title="Project Two" description={description} tecnologies="Node, React"/>
-        <Project github="www.github.com" link="example.com" title="Project Three" description={description} tecnologies="MongoDB, JS"/>
+        {/* <Project github="www.github.com" link="example.com" title="Project Three" description={description} tecnologies="MongoDB, JS"/>
         
         <Project github="www.github.com" link="example.com" title="Project Four" description={description} tecnologies="Angular, .Net"/>
         <Project github="www.github.com" link="example.com" title="Project Five" description={description} tecnologies="SQL Server, C#"/>
-        <Project github="www.github.com" link="example.com" title="Project Six" description={description} tecnologies="HTML, CSS, JS"/>
+        <Project github="www.github.com" link="example.com" title="Project Six" description={description} tecnologies="HTML, CSS, JS"/> */}
         
       </div>
     </section>

@@ -44,6 +44,8 @@
     font-weight: bold;
     border: solid 2.5px #a61f2b;
     border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .button:hover {

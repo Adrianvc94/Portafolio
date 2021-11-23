@@ -16,7 +16,7 @@ const Contact = () => {
         <h2 className={styles.title}>Get in Touch</h2>
         <p className={styles.etiquetaP}>{etiquetaH2Cierre}</p>
       </div>
-      <button className={styles.button}>Say Hello</button>
+      <a className={styles.button} href="mailto:av.camposl25@gmail.com" rel="noopener noreferrer" target="_blank">Say Hello</a>
     </div>
   );
 };
