@@ -5,7 +5,7 @@ import link from "../../Images/link.png";
 
 const Project = (props) => {
   return (
-    <div className="col">
+    <div className="col-md-6">
       <div className="card h-100">
         <div className={`card-body ${styles.container}`}>
           <div className={styles.images_container}>
