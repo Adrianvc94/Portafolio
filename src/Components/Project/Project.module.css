@@ -14,8 +14,27 @@
     margin-left: 5px;
 }
 
+.github_link:hover{
+    transform: translateY(3px);
+}
+
 .title{
     font-weight: 400;
     font-size: 1.6rem;
     color: #a61f2b;
+}
+
+.projectImg{
+    margin: 10px 0 15px 0;
+    /* filter: sepia(10%); */
+    
+    filter: opacity(85%);
+    opacity: 0.9;
+    transition: 0.3s;
+}
+
+.projectImg:hover{
+    /* filter: sepia(0%); */
+    filter: opacity(100%);
+    opacity: 1;
 }
