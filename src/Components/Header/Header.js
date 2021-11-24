@@ -26,10 +26,9 @@ const Header = () => {
         <div className={styles.description_container}>
           <p className={styles.etiquetaP}>{etiquetaPApertura}</p>
           <p className={styles.description}>
-            Etiam lectus odio, viverra id risus eget, egestas viverra libero.
-            Integer imperdiet dolor nec neque hendrerit, ut auctor arcu
-            suscipit. Sed ut scelerisque tellus, at consequat arcu. Ut lacinia,
-            quam ac finibus fermentum 
+            I'm a third year student at ULACIT studying Informatic Engineering,
+            who not so long ago has found a liking in building web pages and
+            coding.
           </p>
           <p className={styles.etiquetaP}>{etiquetaPCierre}</p>
         </div>

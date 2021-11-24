@@ -24,13 +24,12 @@ const About = () => {
         <div className={styles.description_container}>
           <p className={styles.etiquetaP}>{etiquetaPApertura}</p>
           <p className={styles.description}>
-            Etiam lectus odio, viverra id risus eget, egestas viverra libero.
-            Integer imperdiet dolor nec neque hendrerit, ut auctor arcu
-            suscipit. Sed ut scelerisque tellus, at consequat arcu. Ut lacinia,
-            quam ac finibus fermentum, elit urna tristique augue, quis
-            scelerisque diam urna id ligula. Quisque elementum, dui et suscipit
-            tempor, nisl lacus ornare metus, vitae malesuada metus mauris id
-            diam. Sed facilisis in magna quis aliquam. Integer ac vulputate leo.
+            Hello! My name is Adrian and I enjoy creating things that live on
+            the internet. My interest in web development started a couple of
+            months ago when I took a course about web design. There I discover
+            that the process of creating a website from scratch and deploying it
+            to the internet is fun and interesting, so from there I decided to
+            learn more about how it works.
           </p>
           <p className={styles.etiquetaP}>{etiquetaPCierre}</p>
         </div>

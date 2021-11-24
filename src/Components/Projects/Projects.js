@@ -27,9 +27,9 @@ const Projects = () => {
       <div className={`row g-4 ${styles.grid}`}>
 
         <Project github="https://github.com/Adrianvc94/Movie-App" link="https://adrianvc94.github.io/Movie-App/" title="Movie List" description={MovieList_Description} tecnologies="HTML, CSS, JS" projectImg={movie_app}/>
-        <Project github="www.github.com" link="example.com" title="Project Two" description={description} tecnologies="Node, React" projectImg="https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"/>
+        <Project github="www.github.com" link="example.com" title="Weather App" description={description} tecnologies="Node, React" projectImg="https://media.istockphoto.com/vectors/coming-soon-neon-banner-vector-template-glowing-night-bright-sign-vector-id1144514162?k=20&m=1144514162&s=612x612&w=0&h=2mkQDmXYQ48LwS0lr0oTUXmF9VLChnemFWLRgBDJi58="/>
+
         {/* <Project github="www.github.com" link="example.com" title="Project Three" description={description} tecnologies="MongoDB, JS"/>
-        
         <Project github="www.github.com" link="example.com" title="Project Four" description={description} tecnologies="Angular, .Net"/>
         <Project github="www.github.com" link="example.com" title="Project Five" description={description} tecnologies="SQL Server, C#"/>
         <Project github="www.github.com" link="example.com" title="Project Six" description={description} tecnologies="HTML, CSS, JS"/> */}
