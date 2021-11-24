@@ -18,13 +18,16 @@ const Project = (props) => {
                   alt="Github of the project"
                 />
               </a>
-              <a href={props.link} target="_blank" rel="noopener noreferrer">
-                <img
-                  className={styles.github_link}
-                  alt="Link for the project"
-                  src={link}
-                />
-              </a>
+
+              {props.link && (
+                <a href={props.link} target="_blank" rel="noopener noreferrer">
+                  <img
+                    className={styles.github_link}
+                    alt="Link for the project"
+                    src={link}
+                  />
+                </a>
+              )}
             </div>
           </div>
           <h5 className={`card-title ${styles.title}`}>{props.title}</h5>

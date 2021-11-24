@@ -29,6 +29,7 @@
     filter: opacity(80%);
     opacity: 0.9;
     transition: 0.3s;
+    max-height: 255px;
 }
 
 .projectImg:hover{

@@ -1,6 +1,7 @@
 import styles from "./Projects.module.css";
 import Line from "../../Images/Line1.png";
 import movie_app from "../../Images/movie-app.png";
+import xamarin_app from "../../Images/XamarinApp.png";
 
 import Project from "../Project/Project";
 
@@ -10,7 +11,7 @@ const Projects = () => {
 
   var MovieList_Description = "The project makes use of TMDb (The Movie Database) API to search for movie and TV show data.";
 
-  var Weather_Description = "This project takes weather information from the OpenWeather API  based on the location";
+  var Xamarin_Description = "This project is about an app with a theme based upon a cell phone store";
 
   return (
     <section id="projects" className={`container ${styles.main_container}`}>
@@ -27,7 +28,7 @@ const Projects = () => {
       <div className={`row g-4 ${styles.grid}`}>
 
         <Project github="https://github.com/Adrianvc94/Movie-App" link="https://adrianvc94.github.io/Movie-App/" title="Movie List" description={MovieList_Description} tecnologies="HTML, CSS, JS" projectImg={movie_app}/>
-        <Project github="www.github.com" link="example.com" title="Weather App" description={Weather_Description} tecnologies="HTML, CSS, JS" projectImg="https://media.istockphoto.com/vectors/coming-soon-neon-banner-vector-template-glowing-night-bright-sign-vector-id1144514162?k=20&m=1144514162&s=612x612&w=0&h=2mkQDmXYQ48LwS0lr0oTUXmF9VLChnemFWLRgBDJi58="/>
+        <Project github="https://github.com/Adrianvc94/KolbiApp"  title="Xamarin App" description={Xamarin_Description} tecnologies="C#, SQLite" projectImg={xamarin_app}/>
 
         {/* <Project github="www.github.com" link="example.com" title="Project Three" description={description} tecnologies="MongoDB, JS"/>
         <Project github="www.github.com" link="example.com" title="Project Four" description={description} tecnologies="Angular, .Net"/>
