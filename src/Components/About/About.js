@@ -26,10 +26,10 @@ const About = () => {
           <p className={styles.description}>
             Hello! My name is Adrian and I enjoy creating things that live on
             the internet. My interest in web development started a couple of
-            months ago when I took a course about web design. There I discover
-            that the process of creating a website from scratch and deploying it
-            to the internet is fun and interesting, so from there I decided to
-            learn more about how it works.
+            months ago when I took a course about web design. There, I
+            discovered that the process of creating a website from scratch and
+            deploying it to the internet is fun and interesting, so from there,
+            I decided to learn more about how it works.
           </p>
           <p className={styles.etiquetaP}>{etiquetaPCierre}</p>
         </div>
