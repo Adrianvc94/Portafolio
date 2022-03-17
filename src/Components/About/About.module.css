@@ -2,11 +2,11 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
     width: 75vw;
     max-width: 1000px;
-    margin: 200px auto 300px auto;
+    margin: 150px auto 300px auto;
 }
 
 .about{
@@ -33,7 +33,7 @@
 }
 
 .description_container{
-    max-width: 500px;
+    max-width: 700px;
     margin-top: 20px;
 }
 
@@ -75,7 +75,7 @@
 }
 
 .text_container{
-    margin-right: 50px;
+    /* margin-right: 50px; */
 }
 
 
@@ -86,7 +86,7 @@
     }
     .container{
         flex-wrap: wrap;
-        margin: 200px auto 300px auto;
+        margin: 150px auto 300px auto;
         max-width: 80vw;
     }
     .frame_container{
@@ -101,7 +101,7 @@
 @media (min-width: 901px){
     .container{
         flex-wrap: wrap;
-        margin: 200px auto 300px auto;
+        margin: 150px auto 300px auto;
         max-width: 80vw;
         max-width: 1000px;
     }

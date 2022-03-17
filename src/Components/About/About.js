@@ -35,13 +35,13 @@ const About = () => {
         </div>
       </div>
 
-      <div className={styles.frame_container}>
+      {/* <div className={styles.frame_container}>
         <div className={styles.frame}>
           <div className={styles.filter}>
             <img alt="Headshot" src={Photo} className={styles.photo} />
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
