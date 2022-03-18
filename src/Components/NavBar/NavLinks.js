@@ -1,5 +1,5 @@
 import styles from "./NavBar.module.css";
-import cv from "../../CV.pdf";
+import cv from "../../AdrianVinicioCV.pdf";
 
 const NavLinks = (props) => {
   var about = "<About/>";
@@ -32,7 +32,7 @@ const NavLinks = (props) => {
         </li>
       </ul>
 
-      <a href={cv} download="Adrian Vinicio CV" target = "_blank" rel="noopener noreferrer"  className={styles.button}>Resume</a>
+      <a href={cv} download="AdrianVinicioCV" target = "_blank" rel="noopener noreferrer"  className={styles.button}>Resume</a>
     </div>
   );
 };

@@ -1,6 +1,5 @@
 import styles from "./About.module.css";
 import Line from "../../Images/Line1.png";
-import Photo from "../../Images/Foto.png";
 
 const About = () => {
   var etiquetaH2Apertura = "<h2>";
